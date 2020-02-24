@@ -1,0 +1,8 @@
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\bin\Debug\netcoreapp3.0\cv1lib.deps.json
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\bin\Debug\netcoreapp3.0\cv1lib.dll
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\bin\Debug\netcoreapp3.0\cv1lib.pdb
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\obj\Debug\netcoreapp3.0\cv1lib.csprojAssemblyReference.cache
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\obj\Debug\netcoreapp3.0\cv1lib.AssemblyInfoInputs.cache
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\obj\Debug\netcoreapp3.0\cv1lib.AssemblyInfo.cs
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\obj\Debug\netcoreapp3.0\cv1lib.dll
+C:\Users\lukas\OneDrive\Plocha\cv1\cv1lib\obj\Debug\netcoreapp3.0\cv1lib.pdb
