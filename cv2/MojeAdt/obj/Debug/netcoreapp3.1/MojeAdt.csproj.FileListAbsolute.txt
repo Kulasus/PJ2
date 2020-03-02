@@ -1,0 +1,8 @@
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\obj\Debug\netcoreapp3.1\MojeAdt.csprojAssemblyReference.cache
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\obj\Debug\netcoreapp3.1\MojeAdt.AssemblyInfoInputs.cache
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\obj\Debug\netcoreapp3.1\MojeAdt.AssemblyInfo.cs
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\bin\Debug\netcoreapp3.1\MojeAdt.deps.json
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\bin\Debug\netcoreapp3.1\MojeAdt.dll
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\bin\Debug\netcoreapp3.1\MojeAdt.pdb
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\obj\Debug\netcoreapp3.1\MojeAdt.dll
+C:\Users\lukas\www\PJ2\PJ2\cv2\MojeAdt\obj\Debug\netcoreapp3.1\MojeAdt.pdb

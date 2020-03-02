@@ -1,0 +1,14 @@
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.csprojAssemblyReference.cache
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.AssemblyInfoInputs.cache
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.AssemblyInfo.cs
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.exe
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.deps.json
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.runtimeconfig.json
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.runtimeconfig.dev.json
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.dll
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\cv2.pdb
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\MojeAdt.dll
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\bin\Debug\netcoreapp3.1\MojeAdt.pdb
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.csproj.CopyComplete
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.dll
+C:\Users\lukas\www\PJ2\PJ2\cv2\cv2\obj\Debug\netcoreapp3.1\cv2.pdb

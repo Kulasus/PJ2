@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "cv2/1.0.0": {
+        "dependencies": {
+          "MojeAdt": "1.0.0"
+        },
+        "runtime": {
+          "cv2.dll": {}
+        }
+      },
+      "MojeAdt/1.0.0": {
+        "runtime": {
+          "MojeAdt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "cv2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MojeAdt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

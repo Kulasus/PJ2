@@ -65,12 +65,12 @@ namespace MojeAdt
 
         public int Top()
         {
-            return IsEmpty() ? null : zasobnik[index - 1]; 
+            return IsEmpty() ? throw new ApplicationException("Stack is empty.") : zasobnik[index - 1]; 
         }
 
-        public string toString() { 
+        public void toString() { 
             foreach(int i in zasobnik){
-                Console.write(i + " - ");
+                Console.Write(i + " - ");
             }
             Console.WriteLine();
         }

@@ -37,5 +37,10 @@ namespace MojeAdt
         {
             throw new NotImplementedException();
         }
+
+        public void toString()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
