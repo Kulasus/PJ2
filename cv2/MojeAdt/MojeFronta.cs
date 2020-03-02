@@ -4,43 +4,79 @@ using System.Text;
 
 namespace MojeAdt
 {
-    class MojeFronta : IFronta
+    public class MojeFronta : IFronta
     {
         private int[] fronta;
-        private int startIndex;
-        private int endIndex;
+        private int indexLast;
+        private int indexFirst;
+        private const int sizeIncrease = 10;
 
-        public MojeFronta(int size)
+        public MojeFronta()
         {
-            throw new NotImplementedException();
+            this.fronta = new int[sizeIncrease];
+            this.indexFirst = 0;
+            this.indexLast = 0;
         }
         public void Add(int number)
         {
-            throw new NotImplementedException();
+            if (IsFull())
+            {
+                int[] biggerFronta = new int[fronta.Length + sizeIncrease];
+                int copyIndex = 0;
+                foreach (int i in fronta)
+                {
+                    biggerFronta[copyIndex] = fronta[copyIndex];
+                    copyIndex++;
+                }
+                fronta = biggerFronta;
+                Add(number);
+            }
+            else
+            {
+                fronta[indexLast] = number;
+                indexLast++;
+            }
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            indexLast = 0;
         }
 
         public int Get()
         {
-            throw new NotImplementedException();
+            if (IsEmpty())
+            {
+                throw new ApplicationException("Queue is empty.");
+            }
+            else {
+                int number = fronta[indexFirst];
+                for (int i = 0; i < fronta.Length; i++)
+                {
+                    if (i + 1 < fronta.Length) {
+                        fronta[i] = fronta[i + 1];
+                    }
+                }
+                indexLast--;
+                return number;
+            }
         }
         public bool IsEmpty()
         {
-            throw new NotImplementedException();
+            return indexFirst == 0 && indexLast == 0;
         }
 
         public bool IsFull()
         {
-            throw new NotImplementedException();
+            return indexLast == fronta.Length;
         }
 
         public void toString()
         {
-            throw new NotImplementedException();
+            foreach (int i in fronta) {
+                Console.Write(i + " - ");
+            }
+            Console.WriteLine();
         }
     }
 }

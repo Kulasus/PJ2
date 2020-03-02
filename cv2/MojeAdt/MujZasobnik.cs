@@ -13,7 +13,7 @@ namespace MojeAdt
         public MujZasobnik()
         {
             this.index = 0;
-            this.zasobnik = new int[10];
+            this.zasobnik = new int[sizeIncrease];
         }
         public void Clear()
         {
