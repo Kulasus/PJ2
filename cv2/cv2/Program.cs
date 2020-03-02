@@ -8,7 +8,7 @@ namespace cv2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MujZasobnik myStack = new MujZasobnik();
         }
     }
 }

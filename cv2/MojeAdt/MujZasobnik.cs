@@ -7,12 +7,13 @@ namespace MojeAdt
     public class MujZasobnik : IZasobnik
     {
         private int[] zasobnik;
-        int index;
+        private int index;
+        private const int sizeIncrease = 10;
 
-        public MujZasobnik(int size)
+        public MujZasobnik()
         {
             this.index = 0;
-            this.zasobnik = new int[size];
+            this.zasobnik = new int[10];
         }
         public void Clear()
         {
@@ -46,18 +47,32 @@ namespace MojeAdt
         {
             if (IsFull())
             {
-                throw new ApplicationException("Stack is full.");
+                int[] biggerZasobnik = new int[zasobnik.Length + sizeIncrease];
+                int copyIndex = 0;
+                foreach (int i in zasobnik) {
+                    biggerZasobnik[copyIndex] = zasobnik[copyIndex];
+                    copyIndex++;
+                }
+                zasobnik = biggerZasobnik;
+                Push(number);
             }
             else
             {
-                index++;
                 zasobnik[index] = number;
+                index++;
             }
         }
 
         public int Top()
         {
-            return zasobnik[index];
+            return IsEmpty() ? null : zasobnik[index - 1]; 
+        }
+
+        public string toString() { 
+            foreach(int i in zasobnik){
+                Console.write(i + " - ");
+            }
+            Console.WriteLine();
         }
     }
 }

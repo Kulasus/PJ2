@@ -9,6 +9,6 @@ namespace MojeAdt
         public bool IsEmpty();
         public bool IsFull();
         public void Clear();
-
+        public string toString();
     }
 }
